@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+}
+
+/*I used a light color as background to make it easy to read*/
+body {
+  background-color: lightskyblue;
+}
+
+/*First heading I wanted it bigger and bold,
+so it where the first thing people notice at a glance*/
+h1 {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  font: bolder;
+}
+
+/*Second heading is smaller then h1 but bigger then text content
+so it will be the second thing people will notice at a glance*/
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  font: bolder;
+}
+
+/*The settings for the content*/
+.content {
+  text-align: left;
+  font-size: 20px;
+  display: center;
+  width: 1500px;
+}
+
+/*setting just for the navbar*/
+#navbar {
+  width: 600px;
+  height: 160px;
+  background-color: cyan;
+  border-color: midnightblue;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*setting for button links */
+button {
+  width: 100px;
+  color: black;
+  font-weight: bolder;
+  background: coral;
+  text-align: center;
+  padding: 4px;
+  margin: 2px;
+}
+
+/*setting for the photo on the home page*/
+.img {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  border-color: midnightblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* Setting for the photo on about page */
+.pic {
+  width: 300px;
+  height: 475px;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  border-color: midnightblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
